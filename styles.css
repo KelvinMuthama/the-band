@@ -16,7 +16,7 @@ body {
   background-color: #f1f1f1;
 }
 
-header {
+.header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
     url(img/hero.jpg);
   background-size: cover;
