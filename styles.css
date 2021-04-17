@@ -11,7 +11,14 @@ body {
 .container {
   max-width: 120rem;
   margin-top: 0;
-  margin: 2rem auto;
   min-height: 100vh;
   background-color: #f1f1f1;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
+    url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
