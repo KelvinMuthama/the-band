@@ -27,10 +27,13 @@ body {
 
 .header-content {
   position: absolute;
-  background-color: #f8e031;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.header-content__heading {
+  background-color: #f8e031;
   font-size: 3rem;
   letter-spacing: 5px;
   border-radius: 5px;
