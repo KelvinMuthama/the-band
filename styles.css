@@ -61,19 +61,18 @@ body {
 .section-albums {
   margin-left: 10rem;
   margin-top: 2rem;
+  border-radius: 5px;
+  margin-bottom: -5rem;
 }
 
-.section-albums::after {
-  content: "";
-  clear: both;
-  display: table;
+.section-albums h1 {
+  margin-left: 35%;
 }
 
 .section-albums__heading {
   font-size: 3rem;
   padding: 2.5rem;
   color: #2a2a2a;
-  text-decoration: underline;
 }
 
 .section-albums__covers img {
@@ -86,35 +85,33 @@ body {
 .section-albums__covers p {
   font-size: 1.5rem;
   margin-right: 3rem;
+  margin-top: 2rem;
 }
 
 .section-albums__covers {
-  float: left;
-  width: 33.33%;
   padding: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 45%;
+  width: 60%;
+  border-radius: 5px;
   margin: 2rem auto;
   display: flex;
 }
 
 .section-members {
-  margin-top: 3rem;
-  margin-left: 4rem;
+  margin: 9rem auto;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
   font-size: 1.5rem;
-  text-align: justify;
   max-width: 90%;
 }
 
 .section-members__profile {
-  float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  margin: 2rem;
+  flex-basis: 100%;
+  padding: 1rem;
+  margin: 10rem 2rem;
+  border-radius: 5px;
 }
 .section-members__profile:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -123,16 +120,32 @@ body {
 .section-members__profile img {
   width: 150px;
   height: 150px;
-  border-radius: 10px;
+  border-radius: 100px;
+  margin-left: 3rem;
+}
+
+.section-members h1 {
+  position: absolute;
+  margin-left: 30%;
 }
 
 .profile-container {
-  padding: 2px 16px;
+  padding: 2px 20px;
+}
+
+.profile-container h3 {
+  text-align: center;
+  padding: 1rem;
 }
 
 .section-tracks {
   margin-left: 15%;
   font-size: 2rem;
+  margin-top: -15rem;
+}
+
+.section-tracks h1 {
+  margin-left: -18px;
 }
 
 .favorite-tracks a {
