@@ -126,3 +126,13 @@ body {
 .profile-container {
   padding: 2px 16px;
 }
+
+.section-tracks {
+  margin-left: 15%;
+  font-size: 2rem;
+}
+
+.favorite-tracks a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
