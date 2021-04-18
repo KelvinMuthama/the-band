@@ -24,5 +24,5 @@ No Frameworks, No Libraries, Just pure HTML and CSS
 If you have any issues, you can raise a PR here and I'll be pleased to check it out.
 
 ### License
-*Determine the license under which this application can be used.  See below for more details on licensing.*
+MIT License
 Copyright (c) 2021 **Crafted by Kelvin Kamau Muthama**
