@@ -1,4 +1,4 @@
-# {The Band}
+# The Band
 #### This is a simple web page of Hillsong Band, one of my favorite bands., Stable release on 18th April 2021
 #### By **Kelvin Kamau Muthama**
 ## Description
